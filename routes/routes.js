@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { catchErrors } from "../config/helpers.js";
-import { addRoom, deleteRoom, getRoom, getRooms, getTest, postTest, updateRoom } from "../controllers/roomControllers.js";
+import { addRoom, deleteRoom, getRoom, getRooms, updateRoom } from "../controllers/roomControllers.js";
 
 /* Path avec ES modules*/ 
 import path, { dirname } from 'path';
